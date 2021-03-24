@@ -4,8 +4,8 @@ env:
   AZURE_WEBAPP_PACKAGE_PATH: '.'      # set this to the path to your web app project, defaults to the repository root
   NODE_VERSION: '12.x'                # set this to the node version to use
   RESOURCE_GROUP_NAME: 'AZ-400'
-  APP_SERVICE_PLAN: 'cloudskillsjsplan'
-  APP_SERVICE: 'cloudskillsjs'
+  APP_SERVICE_PLAN: 'oovcloudskillsjsplan'
+  APP_SERVICE: 'oovcloudskillsjs'
 
 jobs:
   build-and-deploy:
